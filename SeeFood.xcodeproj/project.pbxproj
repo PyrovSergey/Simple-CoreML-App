@@ -12,6 +12,7 @@
 		9565EBAB22109764009F86B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9565EBA922109764009F86B4 /* Main.storyboard */; };
 		9565EBAD22109765009F86B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9565EBAC22109765009F86B4 /* Assets.xcassets */; };
 		9565EBB022109765009F86B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9565EBAE22109765009F86B4 /* LaunchScreen.storyboard */; };
+		9565EBB82210A45A009F86B4 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9565EBB72210A45A009F86B4 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		9565EBAC22109765009F86B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9565EBAF22109765009F86B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9565EBB122109765009F86B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9565EBB72210A45A009F86B4 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				9565EBA522109764009F86B4 /* AppDelegate.swift */,
 				9565EBA722109764009F86B4 /* ViewController.swift */,
 				9565EBA922109764009F86B4 /* Main.storyboard */,
+				9565EBB72210A45A009F86B4 /* Inceptionv3.mlmodel */,
 				9565EBAC22109765009F86B4 /* Assets.xcassets */,
 				9565EBAE22109765009F86B4 /* LaunchScreen.storyboard */,
 				9565EBB122109765009F86B4 /* Info.plist */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9565EBA822109764009F86B4 /* ViewController.swift in Sources */,
+				9565EBB82210A45A009F86B4 /* Inceptionv3.mlmodel in Sources */,
 				9565EBA622109764009F86B4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
