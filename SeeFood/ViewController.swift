@@ -17,7 +17,6 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
     
     let imagePicker = UIImagePickerController()
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         imagePicker.delegate = self
@@ -62,14 +61,11 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
         } catch {
             print(error)
         }
-        
-        
     }
 
     @IBAction func cameraTapped(_ sender: UIBarButtonItem) {
         present(imagePicker, animated: true, completion: nil)
     }
-    
 }
 
 
